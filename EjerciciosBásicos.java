@@ -5,7 +5,7 @@ public class EjerciciosBásicos {
         for(int i = 1; i<=255; i++){
             System.out.println(i);
         }    
-        System.out.println("Fin del primer ejercicio");
+        
 
 
         //Imprimir los Números Impares Entre 1 - 255
@@ -15,7 +15,7 @@ public class EjerciciosBásicos {
                 System.out.println(i);
             }
         }
-        System.out.println("Fin del segundo ejercicio");
+        
 
 
         //Imprimir la Suma
@@ -25,7 +25,7 @@ public class EjerciciosBásicos {
             System.out.println("Nuevo numero: " + i +" Suma: "+ Suma);
             Suma = Suma + i;
         }
-        System.out.println("Fin del tercer ejercicio");
+        
 
 
 
@@ -41,7 +41,7 @@ public class EjerciciosBásicos {
         for (int ArrayNumeros : Array){
             System.out.println(ArrayNumeros);
         }
-        System.out.println("Fin del 4to ejercicio");
+        
 
 
         //Encontrar el Máximo
@@ -51,7 +51,7 @@ public class EjerciciosBásicos {
             max = Math.max(max, numerosMaximo[i]);
         }
         System.out.println("Maximum Value: " + max);
-        System.out.println("Fin del 5to ejercicio");
+        
 
 
 
@@ -67,7 +67,7 @@ public class EjerciciosBásicos {
                 System.out.println("El promedio es: " + div);
             }
         }
-        System.out.println("Fin del 6xto ejercicio");
+        
 
         //Arreglo con Números Impares
     
@@ -79,7 +79,7 @@ public class EjerciciosBásicos {
             }
         }
         System.out.println(myArray);
-        System.out.println("Fin del 7mo ejercicio");
+       
 
 
         //Mayor que Y
@@ -91,7 +91,7 @@ public class EjerciciosBásicos {
             }
         }
         System.out.println(contador);
-        System.out.println("Fin del 8vo ejercicio");
+        
 
 
 
@@ -105,9 +105,9 @@ public class EjerciciosBásicos {
             Calculo = ArrayCuadrado[i] * ArrayCuadrado[i];
             System.out.println(Calculo);
         }
-        System.out.println("Fin del 9no ejercicio");
-
         
+
+
 
         
         
